@@ -21,8 +21,8 @@ int print_d(va_list baydre)
 	else
 		num_Absolute = numbers;
 
-		aux_Num = num_Absolute;
-		count_Zero = 1;
+	aux_Num = num_Absolute;
+	count_Zero = 1;
 	while (aux_Num > 9)
 	{
 	aux_Num /= 10;
