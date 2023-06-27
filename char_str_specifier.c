@@ -7,9 +7,9 @@
  */
 int print_c(va_list baydre)
 {
-        int c = va_arg(baydre, int);
+	int c = va_arg(baydre, int);
 
-        return (_putchar(c));
+	return (_putchar(c));
 }
 
 /**
@@ -19,14 +19,14 @@ int print_c(va_list baydre)
  */
 int print_s(va_list baydre)
 {
-        int i, count = 0;
-        char *str;
+	int i, count = 0;
+	char *str;
 
-        str = va_arg(baydre, char *);
-        if (str == NULL)
-                str = "(null)";
+	str = va_arg(baydre, char *);
+	if (str == NULL)
+	str = "(null)";
 
-        for (i = 0; str[i]; i++)
-                count += _putchar(str[i]);
-        return (count);
+	for (i = 0; str[i]; i++)
+	count += _putchar(str[i]);
+	return (count);
 }
