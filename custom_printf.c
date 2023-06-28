@@ -32,10 +32,10 @@ int _printf(const char *format, ...)
 		i++;
 	}
 	else if (format[i + 1] != '\0')
-		{
-			o = get_func(format[i + 1]);
-			count += (o ? o(baydre) : _putchar(format[i]) + _putchar(format[i + 1]));
-			i++;
+	{
+		o = get_func(format[i + 1]);
+		count += (o ? o(baydre) : _putchar(format[i]) + _putchar(format[i + 1]));
+		i++;
 		}
 	}
 	else
