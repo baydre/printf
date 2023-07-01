@@ -24,18 +24,18 @@ int _printf(const char *format, ...)
 
 	for (i = 0; format[i] != '\0'; i++)
 	{
-	if (format[i] == '%')
-	{
-	if (format[i + 1] == '%')
-	{
-		count += _putchar(format[i]);
-		i++;
-	}
-	else if (format[i + 1] != '\0')
+		if (format[i] == '%')
 		{
-			o = get_func(format[i + 1]);
-			count += (o ? o(baydre) : _putchar(format[i]) + _putchar(format[i + 1]));
-			i++;
+			if (format[i + 1] == '%')
+			{
+				count += _putchar(format[i]);
+				i++;
+			}
+			else if (format[i + 1] != '\0')
+			{
+				o = get_func(format[i + 1]);
+				count += (o ? o(baydre) : _putchar(format[i]) + _putchar(format[i + 1]));
+				i++;
 		}
 	}
 	else
