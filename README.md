@@ -1,5 +1,7 @@
 # printf
 
+<p>The C function for formatted printing is called printf. The same function is accessible in PERL as well. This project demonstrates and clarifies how printf functions as well as how to create the ideal formatting specification for any situation.</p>
+
 ## main.c
 
 ```
