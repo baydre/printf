@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_b - Convert of decimals in binary
+ * print_b - converts decimals to binary
  * @jes_dre: store the argument values
- * Return: the count
+ * Return: number of count
  */
 int print_b(va_list jes_dre)
 {

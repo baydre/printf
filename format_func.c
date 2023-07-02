@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * get_func - search and return the correct function
- * @s: array to check
- * Return: a function (if correctly written)
+ * get_func - checks and return the correct function
+ * @s: array to be checked
+ * Return: NULL
  */
 int (*get_func(char s))(va_list)
 {

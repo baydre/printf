@@ -2,8 +2,8 @@
 
 /**
  * _printf - main function to print in console
- * @format: array to print and check type
- * Return: count of character printed
+ * @format: checks type and print specified format
+ * Return: count of specifier printed
  */
 int _printf(const char *format, ...)
 {

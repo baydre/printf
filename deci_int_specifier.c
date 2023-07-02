@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * print_d - Print decimal (base 10) digits (%d)
- * @baydre: store the value of argument
- * Return: counter print numbers
+ * print_d - outputs decimal (base 10) digits (%d)
+ * to stdout
+ * @baydre: stores the argument value
+ * Return: number of counts.
  */
 int print_d(va_list baydre)
 {
@@ -37,9 +38,10 @@ int print_d(va_list baydre)
 	return (count);
 }
 /**
- * print_i - Print the integers (%i)
- * @baydre: store list numbers
- * Return: Number print
+ * print_i - outputs the integers (%i) values
+ * to stdout.
+ * @baydre: store numbers
+ * Return: number print
  */
 int print_i(va_list baydre)
 {

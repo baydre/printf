@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_c - Print character (%c)
- * @baydre: store the list of characters
+ * print_c - Prints character (%c)
+ * @baydre: store character arguments
  * Return: num of parameters printed
  */
 int print_c(va_list baydre)
@@ -13,8 +13,8 @@ int print_c(va_list baydre)
 }
 
 /**
- * print_s - Print string (%s)
- * @baydre: store the list of characters
+ * print_s - Prints string (%s)
+ * @baydre: store character arguments
  * Return: num of parameters printed
  */
 int print_s(va_list baydre)
